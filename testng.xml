@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      
+      <class name="keywordTest.ParallelTest"/>
+     
+    </classes>
+    
+     <!-- classes>
+      <class name="annonationsTest.BeforeTestTest"/>
+      <class name="groupTest.GroupingTest"/>
+      <class name="keywordTest.ExpectedExceptionTest"/>
+      <class name="ParameterizationTest.SingleDataProviderTest"/>
+      <class name="annonationsTest.BeforeMethodTest"/>
+      <class name="keywordTest.PriorityTest"/>
+      <class name="keywordTest.DescriptionTest"/>
+      <class name="assertionsTest.SoftAssertTest"/>
+      <class name="keywordTest.SkipTest"/>
+      <class name="keywordTest.InvocationTest"/>
+      <class name="assertionsTest.HardAssertion"/>
+      <class name="annonationsTest.BeforeClassTest"/>
+      <class name="keywordTest.DependsOnTest"/>
+    </classes-->
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

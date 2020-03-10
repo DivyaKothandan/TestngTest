@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6867" started-at="2019-06-26T18:59:23Z" finished-at="2019-06-26T18:59:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6867" started-at="2019-06-26T18:59:23Z" finished-at="2019-06-26T18:59:30Z">
+      <class name="keywordTest.ParallelTest">
+        <test-method status="PASS" signature="sessionTwo()[pri:0, instance:keywordTest.ParallelTest@6cc4c815]" name="sessionTwo" duration-ms="6614" started-at="2019-06-26T18:59:23Z" finished-at="2019-06-26T18:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionTwo -->
+        <test-method status="PASS" signature="sessionOne()[pri:0, instance:keywordTest.ParallelTest@6cc4c815]" name="sessionOne" duration-ms="6849" started-at="2019-06-26T18:59:23Z" finished-at="2019-06-26T18:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionOne -->
+      </class> <!-- keywordTest.ParallelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
